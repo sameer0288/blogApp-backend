@@ -26,7 +26,7 @@ app.use("/api/", limiter);
 
 // MongoDB connection string
 const mongoURI =
-  "mongodb+srv://sameersheikh0288:sameer1234@cluster0.y7meqjk.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://sameersheikh0288:sameer1234@cluster0.tc9gzab.mongodb.net/";
 
 // Set up MongoDB connection
 mongoose.connect(mongoURI);
